@@ -17,6 +17,7 @@ Data Dictionary:
     CTC_updated_year - Year in which CTC got updated (Yearly increments, Promotions)
 
 Summary :
+
 This analysis involved a comprehensive exploration of a job position dataset, applying various data preprocessing and clustering techniques. Below is a summary of the key steps and findings from the analysis:
 
     Data Loading and Initial Exploration:
@@ -27,7 +28,7 @@ This analysis involved a comprehensive exploration of a job position dataset, ap
         Duplicate entries were removed based on email_hash, job_position, and company_hash, resulting in a more refined dataset.
 
     Feature Engineering:
-        A new column, years_of_experience, was created by calculating the difference between the current year and the year of organization entry (orgyear).
+        A new column, years_of_experience, was created by calculating the difference between the current year and the year of organization              entry (orgyear).
 
     Data Scaling:
         The dataset was standardized using StandardScaler to ensure that all features contributed equally to the clustering algorithms.
@@ -40,12 +41,12 @@ This analysis involved a comprehensive exploration of a job position dataset, ap
 
     Clustering Techniques:
         K-Means clustering was applied, using the Elbow Method to determine the optimal number of clusters, which was found to be four.
-        Hierarchical clustering was performed on a sample of the data due to computational constraints, and a dendrogram was plotted to visualize cluster relationships.
+        Hierarchical clustering was performed on a sample of the data due to computational constraints, and a dendrogram was plotted to                 visualize cluster relationships.
         DBSCAN clustering was implemented to identify clusters based on density, with some data points categorized as noise.
 
     Dimensionality Reduction and Visualization:
-        t-SNE and PCA techniques were employed to visualize the clustering results in two dimensions, providing insights into the distribution of clusters and their characteristics.
+        t-SNE and PCA techniques were employed to visualize the clustering results in two dimensions, providing insights into the distribution          of clusters and their characteristics.
 
     Final Analysis and Conclusion:
         The analysis revealed distinct categories of job positions within the dataset, highlighting their unique attributes.
-        The findings offer valuable insights into job trends and salary distributions, which can inform decision-making and strategies in talent acquisition and management.
+        The findings offer valuable insights into job trends and salary distributions, which can inform decision-making and strategies in               talent acquisition and management.
